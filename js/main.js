@@ -89,6 +89,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 function logOut() {
-    // location.pathname = `/index.html`; For my pc
+    location.pathname = `/index.html`; // For my pc
     location.pathname = `/System-Login/index.html`; //for git hup
 }
