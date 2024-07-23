@@ -1,5 +1,5 @@
 
-if (window.location.pathname === "/signup.html" || window.location.pathname === '/System-Login/') {
+if (window.location.pathname === '/System-Login/' || window.location.pathname === "/signup.html") {
     let btn = document.getElementById("signup");
     btn.addEventListener("click", function (e) {
         let name = document.getElementById("name");
@@ -37,7 +37,7 @@ if (window.location.pathname === "/signup.html" || window.location.pathname === 
         password.value = ""
     });
 }
-if (window.location.pathname === "/index.html" || window.location.pathname === '/System-Login/') {
+if (window.location.pathname === '/System-Login/' || window.location.pathname === "/index.html") {
 
     let signIn = document.getElementById("signin")
     signIn.addEventListener("click", function (e) {
@@ -61,7 +61,7 @@ if (window.location.pathname === "/index.html" || window.location.pathname === '
 
 
 document.addEventListener('DOMContentLoaded', function () {
-    if (window.location.pathname === "/home.html" || window.location.pathname === '/System-Login/') {
+    if (window.location.pathname === '/System-Login/'  || window.location.pathname === "/home.html") {
         let username = localStorage.getItem('name');
         let gender = localStorage.getItem('gender');
         let welcomeMessage = document.getElementById('welcomeMessage');
